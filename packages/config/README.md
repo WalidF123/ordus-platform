@@ -1,0 +1,3 @@
+# @ordus/config
+
+Shared configuration.

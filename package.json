@@ -1,0 +1,13 @@
+{
+  "name": "ordus-platform",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:console": "npm --workspace apps/console run dev",
+    "dev:mobile": "npm --workspace apps/mobile run start"
+  }
+}
